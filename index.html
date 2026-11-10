@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#05070d">
+    <meta name="description" content="Portafolio personal de Samuel Trejos: intereses, aspiraciones y curiosidad por la tecnología.">
+    <title>Samuel Trejos — Portafolio personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <nav class="navigation wrap" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Samuel Trejos, inicio">
+          <span class="brand-mark">ST<span>.</span></span>
+          <span class="brand-name">Samuel Trejos</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+          <i data-lucide="menu"></i>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#aspiraciones">Aspiraciones</a>
+          <a href="#intereses">Intereses</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a class="nav-contact" href="#contacto">Contacto <i data-lucide="arrow-up-right"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero wrap" id="inicio">
+        <div class="hero-copy">
+          <div class="eyebrow reveal"><span class="status-dot"></span> PORTAFOLIO PERSONAL <span class="eyebrow-year">· <span id="current-year">2026</span></span></div>
+          <p class="hero-role reveal"><span class="role-prefix">EN CONSTANTE</span> <span class="typed-role" aria-label="aprendizaje y exploración"></span><span class="typing-caret" aria-hidden="true"></span></p>
+          <p class="hero-name-label eyebrow reveal"><span class="section-number">01</span> 👤 NOMBRE DEL ESTUDIANTE</p>
+          <p class="hero-greeting reveal">Hola, soy</p>
+          <h1 class="reveal">Samuel <span class="gradient-text">Trejos.</span></h1>
+          <p class="hero-description reveal">ESTUDIANTE · CURIOSO · CREATIVO</p>
+          <div class="hero-actions reveal">
+            <a class="button button-primary" href="#aspiraciones">Explorar mi perfil <i data-lucide="arrow-down-right"></i></a>
+            <a class="button button-quiet" href="#contacto">Contacto <i data-lucide="arrow-up-right"></i></a>
+          </div>
+          <a class="scroll-cue reveal" href="#foto"><span class="scroll-line"></span> DESLIZA PARA EXPLORAR</a>
+        </div>
+        <div class="hero-visual hero-monogram reveal" aria-hidden="true">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="visual-glow"></div>
+          <div class="hero-initials">ST<span>.</span></div>
+          <div class="float-card float-card-top"><i data-lucide="sparkles"></i><span>Ideas en<br>movimiento</span></div>
+          <div class="float-card float-card-bottom"><span class="mini-code">&lt;/&gt;</span><span>Modo<br>creativo</span></div>
+          <div class="visual-index">01 <span>/</span> 10</div>
+        </div>
+        <div class="hero-grid" aria-hidden="true"></div>
+      </section>
+
+      <section class="section profile-section" id="foto">
+        <div class="wrap profile-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span class="section-number">02</span> RETRATO PERSONAL</p>
+            <h2>📷 Foto de <span class="gradient-text">perfil.</span></h2>
+            <p class="section-intro">Una imagen para ponerle rostro a este espacio y a las ideas que quiero compartir.</p>
+            <span class="profile-caption"><span class="caption-dot"></span> SAMUEL TREJOS · ESTUDIANTE</span>
+          </div>
+          <div class="profile-photo-wrap reveal">
+            <div class="profile-photo-glow"></div>
+            <div class="photo-frame profile-photo-frame">
+              <img src="yo.jpeg" alt="Foto de perfil de Samuel Trejos" fetchpriority="high">
+            </div>
+            <span class="profile-photo-index">RETRATO / 2026</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="aspiraciones">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="section-number">03</span> MI FUTURO</p>
+          <h2>🎓 Aspiraciones <span class="gradient-text">educativas.</span></h2>
+          <p class="section-intro">Cada paso es una oportunidad para descubrir en qué puedo convertirme.</p>
+        </div>
+        <div class="aspiration-layout">
+          <article class="aspiration-card glass-card reveal">
+            <div class="card-icon"><i data-lucide="compass"></i></div>
+            <span class="card-kicker">01 — MI RUMBO</span>
+            <h3>Una educación<br>con propósito.</h3>
+            <p>Quiero seguir creciendo a través del estudio, encontrar los temas que me mueven y convertir mi curiosidad en conocimientos útiles para el futuro.</p>
+            <div class="card-bottom"><span>APRENDER · EXPLORAR · CRECER</span><i data-lucide="arrow-up-right"></i></div>
+          </article>
+          <article class="aspiration-card aspiration-card-featured reveal">
+            <div class="feature-orb" aria-hidden="true"></div>
+            <div class="card-icon"><i data-lucide="move-up-right"></i></div>
+            <span class="card-kicker">02 — MI VISIÓN</span>
+            <h3>Ideas que<br>llegan más lejos.</h3>
+            <p>Mi meta es combinar creatividad y tecnología para resolver problemas reales, aportar algo positivo y nunca dejar de hacer preguntas.</p>
+            <div class="card-bottom"><span>EL FUTURO SE APRENDE HACIENDO</span><i data-lucide="arrow-up-right"></i></div>
+          </article>
+          <div class="aspiration-note reveal">
+            <span class="note-mark">“</span>
+            <p>No necesito tener todas las respuestas.<br><strong>Solo las ganas de seguir buscando.</strong></p>
+            <span class="note-signature">— SAMUEL</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section interests-section" id="intereses">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span class="section-number">04</span> CURIOSIDAD DIGITAL</p>
+            <h2>💻 Intereses <span class="gradient-text">tecnológicos.</span></h2>
+            <p class="section-intro">La tecnología me inspira por su capacidad para transformar ideas en herramientas y experiencias.</p>
+          </div>
+          <div class="interest-grid interest-grid-three">
+            <article class="interest-card glass-card reveal">
+              <span class="interest-index">01</span>
+              <div class="interest-icon"><i data-lucide="cpu"></i></div>
+              <h3>Tecnología e innovación</h3>
+              <p>Me intriga cómo la innovación transforma la manera en que vivimos, pensamos y nos conectamos.</p>
+              <div class="interest-tags"><span>INNOVACIÓN</span><span>FUTURO DIGITAL</span></div>
+            </article>
+            <article class="interest-card glass-card reveal">
+              <span class="interest-index">02</span>
+              <div class="interest-icon"><i data-lucide="code-2"></i></div>
+              <h3>Desarrollo web</h3>
+              <p>Me gusta la mezcla de lógica y creatividad que permite convertir una idea en algo que se puede explorar.</p>
+              <div class="interest-tags"><span>CREAR</span><span>EXPERIMENTAR</span></div>
+            </article>
+            <article class="interest-card glass-card reveal">
+              <span class="interest-index">03</span>
+              <div class="interest-icon"><i data-lucide="brain-circuit"></i></div>
+              <h3>Inteligencia artificial</h3>
+              <p>Quiero entender cómo las nuevas herramientas digitales pueden ayudar a resolver retos de formas distintas.</p>
+              <div class="interest-tags"><span>EXPLORAR</span><span>APRENDER</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="otros-intereses">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><span class="section-number">05</span> MÁS ALLÁ DE LA TECNOLOGÍA</p>
+          <h2>🎨 Otros intereses <span class="gradient-text">personales o académicos.</span></h2>
+          <p class="section-intro">También me motivan la creatividad, las nuevas perspectivas y todo lo que amplía mi forma de ver el mundo.</p>
+        </div>
+        <div class="interest-grid">
+          <article class="interest-card glass-card reveal">
+            <span class="interest-index">01</span>
+            <div class="interest-icon"><i data-lucide="palette"></i></div>
+            <h3>Creatividad y diseño</h3>
+            <p>Me interesa cómo las formas, los colores y los detalles pueden hacer más clara y atractiva una idea.</p>
+            <div class="interest-tags"><span>IMAGINAR</span><span>DISEÑAR</span></div>
+          </article>
+          <article class="interest-card glass-card reveal">
+            <span class="interest-index">02</span>
+            <div class="interest-icon"><i data-lucide="lightbulb"></i></div>
+            <h3>Nuevas ideas</h3>
+            <p>Disfruto descubrir perspectivas diferentes, hacer preguntas y encontrar soluciones originales.</p>
+            <div class="interest-tags"><span>CURIOSIDAD</span><span>RESOLVER</span></div>
+          </article>
+          <article class="interest-card glass-card reveal">
+            <span class="interest-index">03</span>
+            <div class="interest-icon"><i data-lucide="book-open"></i></div>
+            <h3>Aprendizaje continuo</h3>
+            <p>Valoro los temas y experiencias que me invitan a pensar, aprender y seguir creciendo.</p>
+            <div class="interest-tags"><span>DESCUBRIR</span><span>CRECER</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section interests-section" id="areas-estudio">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span class="section-number">06</span> TEMAS PARA PROFUNDIZAR</p>
+            <h2>📚 Áreas de estudio que <span class="gradient-text">me interesan.</span></h2>
+            <p class="section-intro">Algunas áreas que me gustaría conocer mejor a medida que avanzo en mi aprendizaje.</p>
+          </div>
+          <div class="study-grid">
+            <article class="study-card glass-card reveal"><i data-lucide="braces"></i><span>01</span><h3>Programación</h3><p>Aprender a crear soluciones con código.</p></article>
+            <article class="study-card glass-card reveal"><i data-lucide="brain-circuit"></i><span>02</span><h3>Inteligencia artificial</h3><p>Explorar las posibilidades de las tecnologías inteligentes.</p></article>
+            <article class="study-card glass-card reveal"><i data-lucide="panels-top-left"></i><span>03</span><h3>Diseño de interfaces</h3><p>Diseñar experiencias digitales claras y fáciles de usar.</p></article>
+            <article class="study-card glass-card reveal"><i data-lucide="flask-conical"></i><span>04</span><h3>Ciencia y tecnología</h3><p>Entender los descubrimientos que dan forma al futuro.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section wrap" id="sobre-mi">
+        <div class="about-aside reveal">
+          <div class="about-monogram">S<span>.</span></div>
+          <p>UNA PERSONA<br>EN CONSTANTE<br><span>EVOLUCIÓN</span></p>
+          <span class="about-aside-line"></span>
+          <span class="about-aside-index">07 — 08</span>
+        </div>
+        <div class="about-content">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span class="section-number">07</span> QUIÉN SOY</p>
+            <h2>🌎 Una breve presentación <span class="gradient-text">personal.</span></h2>
+          </div>
+          <div class="about-text reveal">
+            <p class="about-lead">Soy Samuel: estudiante y alguien que cree que siempre hay algo nuevo por descubrir.</p>
+            <p>Me gusta aprender, imaginar posibilidades y entender cómo funcionan las cosas. La tecnología me inspira porque une creatividad y conocimiento; también valoro las ideas, las conversaciones y las experiencias que nos ayudan a crecer.</p>
+            <p>Estoy construyendo mi camino con curiosidad, dedicación y la motivación de aportar algo bueno. Este portafolio es una pequeña ventana a lo que me interesa hoy y a todo lo que todavía quiero explorar.</p>
+            <div class="personal-values"><span><i data-lucide="check"></i> Curioso por naturaleza</span><span><i data-lucide="check"></i> Siempre aprendiendo</span><span><i data-lucide="check"></i> Abierto a nuevas ideas</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contacto">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="wrap contact-inner reveal">
+          <p class="eyebrow"><span class="section-number">08</span> HABLEMOS</p>
+          <h2>📧 Un medio de contacto <span class="gradient-text">apropiado.</span></h2>
+          <p>Puedes escribirme por correo electrónico para conversar sobre mis intereses y mi proceso de aprendizaje.</p>
+          <a class="button button-primary contact-button" href="mailto:samueltrejossaavedra@gmail.com?subject=Hola%2C%20Samuel">Escríbeme <i data-lucide="arrow-up-right"></i></a>
+          <a class="contact-email" href="mailto:samueltrejossaavedra@gmail.com">samueltrejossaavedra@gmail.com</a>
+        </div>
+        <div class="contact-decoration" aria-hidden="true">ST<span>.</span></div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <a class="brand footer-brand" href="#inicio"><span class="brand-mark">ST<span>.</span></span><span class="brand-name">Samuel Trejos</span></a>
+        <span class="footer-note">HECHO CON CURIOSIDAD <span class="footer-heart">✳</span> Y GANAS DE APRENDER</span>
+        <a class="back-top" href="#inicio">VOLVER ARRIBA <i data-lucide="arrow-up"></i></a>
+        <span class="copyright">© <span id="year">2025</span> SAMUEL TREJOS</span>
+      </div>
+    </footer>
+  </body>
+</html>
